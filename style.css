@@ -1,0 +1,43 @@
+.nav-title {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: #181818;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.text-primary{
+    color:#FD6E0A;
+}
+
+.button-primary{
+    background-color:#FD6E0A;
+    width: 150px;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-weight: 80px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+}
+nav{
+    display: flex;
+    
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
